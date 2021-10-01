@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Settings</title>
+  <link rel="stylesheet" type="text/css" href="../css/settings.css"/>
+</head>
+
+<body>
+  <div class="banner"></div>
+
+  <div class="page">
+    <div class="article">
+      <p class="title">Focus Mode Settings</p>
+      <p class="subtitle">If you want to customize your extension a bit, you are in the right place!</p>
+      <div>
+        <p class="title1">Default blocked websites</p>
+        <p class="subtitle1">Here are the websites blocked by default. If you want to keep some of them accessible, you just need to uncheck them.</p>
+        <ul id="defaultList" class="list">
+        </ul>
+      </div>
+      <div>
+        <p class="title1">Custom blocked websites</p>
+        <p class="subtitle1">If you need to block some more distracting websites, just add them here.</p>
+        <table id="customTable">
+            <tr class="head">
+              <th class="table-checkbox">
+              </th>
+              <th>Website</th>
+              <th class="table-cross">Delete</th>
+            </tr>
+        </table>
+        <div>
+          <p class="title2">Add a website</p>
+          <input id="addingInput" type="text" style="width: 100%; background-color: white;">
+        </div>
+      </div>
+    
+      
+    </div>
+  </div>
+
+  <script src="../js/settings.js"></script>
+</body>
+</html>
